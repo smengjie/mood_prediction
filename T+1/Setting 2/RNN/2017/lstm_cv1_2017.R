@@ -1,4 +1,5 @@
 source('new_data_full.R')
+#o is the test set block index
 o = 2
 lookback = 7
 step = 1

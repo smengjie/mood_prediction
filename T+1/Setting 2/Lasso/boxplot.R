@@ -1,3 +1,4 @@
+#can change to other file names
 load('results_2017.rda')
 numsplits = 5
 

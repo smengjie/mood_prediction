@@ -10,6 +10,7 @@ mse = numeric()
 R2 = numeric()
 
 #4 can be changed to any number between 23.In this study so far, we used 1,4,23
+#But reconstruct clusters_m1 when using other cluster number.The code should be the last bit of plot.R
 for(i in 1:4){
   err= data.frame(matrix(ncol = folds,nrow = length(clusters_m1[[i]])))
   cur_users = clusters_m1[[i]]

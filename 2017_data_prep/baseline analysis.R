@@ -1,6 +1,6 @@
 library(vars)
-load('C:/Users/smengjie/Box Sync/Fitbit 2017-2018 data share/Jessica_Mengjie/Data/2017_data.rda')
-baseline = read.csv('C:/Users/smengjie/Box Sync/Fitbit 2017-2018 data share/2017 data/survey data/Data2017_full.csv')
+load('2017_data.rda')
+baseline = read.csv('Data2017_full.csv')
 start = as.Date('2017-07-01')
 prestart = as.Date('2017-04-01')
 end = as.Date("2018-06-30")

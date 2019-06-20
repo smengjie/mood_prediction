@@ -1,5 +1,5 @@
-full_2017_data = read.csv("C:/Users/smengjie/Box Sync/Fitbit 2017-2018 data share/2017 data/merged_data/NewDailyMood_combined2017.csv")
-baseline = read.csv('C:/Users/smengjie/Box Sync/Fitbit 2017-2018 data share/2017 data/survey data/Data2017_full.csv')
+full_2017_data = read.csv("NewDailyMood_combined2017.csv")
+baseline = read.csv('Data2017_full.csv')
 full_2017_data = full_2017_data[,-1]
 #change new_day to type Date
 full_2017_data$new_day = as.Date(as.character(full_2017_data$new_day))
